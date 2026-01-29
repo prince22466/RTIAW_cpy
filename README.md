@@ -1,7 +1,7 @@
 # RTIAW (Raytracing In A Weekend) - Project Review
 
 ## Overview
-This project is a C++17 ray tracer with an interactive UI built on the Walnut framework. It renders scenes from the "Ray Tracing in One Weekend" style setup and exposes controls for scene selection, samples per pixel, and max bounces.
+This project is a C++20(was 17) ray tracer with an interactive UI built on the Walnut framework. It renders scenes from the "Ray Tracing in One Weekend" style setup and exposes controls for scene selection, samples per pixel, and max bounces.
 
 ## Project Structure
 ```
