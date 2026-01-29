@@ -65,7 +65,7 @@ This project is a C++20(was 17) ray tracer with an interactive UI built on the W
 
 ## Language and Standard
 - **Programming language:** C++
-- **Language standard:** C++17 (`CMAKE_CXX_STANDARD 17`)
+- **Language standard:** C++20 (`CMAKE_CXX_STANDARD 20`)
 
 ## Dependencies / Packages
 From `cmake/FetchDependencies.cmake`:
@@ -85,7 +85,7 @@ From CMake targets and includes:
 
 ## Running Environment Requirements
 - Windows environment implied by `CMakeSettings.json` (MSVC x64 toolchain).
-- A C++17-capable compiler and CMake >= 3.13.
+- A C++20-capable compiler and CMake >= 3.13.
 - Ninja (or another CMake generator if you adjust settings).
 - Git submodules must be initialized to populate `vendor/Walnut`:
   - `git submodule update --init --recursive`
