@@ -3,7 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.13)
 
-project ("RTIAW")
+project ("RTIAW_CPY")
 
 set(CMAKE_SKIP_INSTALL_ALL_DEPENDENCY TRUE)
 # use, i.e. don't skip the full RPATH for the build tree
@@ -22,9 +22,9 @@ endif ()
 # RPATH
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 
-# Check for C++ standard and set it to C++17 if not already set
-set(CMAKE_CXX_STANDARD_REQUIRED 17)
-set(CMAKE_CXX_STANDARD 17)
+# Check for C++ standard and set it to C++20 if not already set
+set(CMAKE_CXX_STANDARD_REQUIRED 20)
+set(CMAKE_CXX_STANDARD 20)
 
 include(cmake/FetchDependencies.cmake)
 
